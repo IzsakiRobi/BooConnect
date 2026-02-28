@@ -1,9 +1,5 @@
 <p align="center">
 <img width="400" height="450" alt="BooConnect_Main" src="https://github.com/user-attachments/assets/5da58987-2940-430c-9bda-0ebdfd806f0e" />
-<img width="400" height="450" alt="BooConnect_Config" src="https://github.com/user-attachments/assets/13d113a9-a476-4527-b2b6-d42196e82fd4" />
-</p>
-<p align="center">
-<img width="400" height="320" alt="BooConnect_Token" src="https://github.com/user-attachments/assets/ee65c3ce-670a-4227-bb3b-5e350eed2b0a" />
 </p>
 
 # BooConnect
