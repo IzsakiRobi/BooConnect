@@ -66,10 +66,10 @@ To compile BooConnect from source, you need the Vala compiler and the developmen
    `sudo pacman -S vala base-devel gtk4 libadwaita json-glib gtk3 libappindicator-gtk3`
 
 #### 1. Compile the Main Application
-valac --pkg gtk4 --pkg libadwaita-1 --pkg json-glib-1.0 main.vala -o BooConnect
+`valac --pkg gtk4 --pkg libadwaita-1 --pkg json-glib-1.0 main.vala -o BooConnect`
 
 #### 2. Compile the Tray Indicator
-valac --pkg gtk+-3.0 --pkg appindicator3-0.1 tray.vala -o BooConnectTray
+`valac --pkg gtk+-3.0 --pkg appindicator3-0.1 tray.vala -o BooConnectTray`
 
 (Note: Use --pkg ayatana-appindicator3-0.1 on some newer distros)
 
