@@ -4,7 +4,7 @@
 </p>
 <p align="center">
 <img width="400" height="320" alt="BooConnect_Token" src="https://github.com/user-attachments/assets/ee65c3ce-670a-4227-bb3b-5e350eed2b0a" />
-</p>p
+</p>
 
 # BooConnect
 **BooConnect** is a lightweight, modern GTK4 GUI client designed specifically for **Cisco AnyConnect** VPNs. Powered by the robust `openconnect` engine under the hood, it provides a seamless native desktop experience for Linux users without the hassle of terminal commands or complex system configurations.
