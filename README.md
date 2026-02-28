@@ -1,3 +1,11 @@
+<p align="center">
+<img width="400" height="450" alt="BooConnect_Main" src="https://github.com/user-attachments/assets/5da58987-2940-430c-9bda-0ebdfd806f0e" />
+<img width="400" height="450" alt="BooConnect_Config" src="https://github.com/user-attachments/assets/13d113a9-a476-4527-b2b6-d42196e82fd4" />
+</p>
+<p align="center">
+<img width="400" height="320" alt="BooConnect_Token" src="https://github.com/user-attachments/assets/ee65c3ce-670a-4227-bb3b-5e350eed2b0a" />
+</p>p
+
 # BooConnect
 **BooConnect** is a lightweight, modern GTK4 GUI client designed specifically for **Cisco AnyConnect** VPNs. Powered by the robust `openconnect` engine under the hood, it provides a seamless native desktop experience for Linux users without the hassle of terminal commands or complex system configurations.
 
@@ -51,15 +59,15 @@ To compile BooConnect from source, you need the Vala compiler and the developmen
 
 1. Ubuntu / Debian / Linux Mint
    
-   `sudo apt install valac libgtk-4-dev libadwaita-1-dev libjson-glib-dev libappindicator3-dev build-essential`
+   `sudo apt install valac build-essential libgtk-4-dev libadwaita-1-dev libjson-glib-dev libgtk-3-dev libappindicator3-dev`
 
 3. Fedora
    
-   `sudo dnf install vala gtk4-devel libadwaita-devel json-glib-devel libappindicator-gtk3-devel gcc`
+   `sudo dnf install vala gcc gtk4-devel libadwaita-devel json-glib-devel gtk3-devel libappindicator-gtk3-devel`
 
 5. Arch Linux
    
-   `sudo pacman -S vala gtk4 libadwaita json-glib libappindicator-gtk3 base-devel`
+   `sudo pacman -S vala base-devel gtk4 libadwaita json-glib gtk3 libappindicator-gtk3`
 
 #### 1. Compile the Main Application
 valac --pkg gtk4 --pkg libadwaita-1 --pkg json-glib-1.0 main.vala -o BooConnect
